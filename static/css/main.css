@@ -159,3 +159,56 @@
 .textArea{
     margin-left: -5px;
 }
+
+.img1{
+    height: 100px;
+    width: 100px;
+}
+
+.img2{
+    height: 100px;
+    width: 100px;
+}
+
+.img3{
+    height: 100px;
+    width: 100px;
+}
+
+.img4{
+    height: 100px;
+    width: 100px;
+}
+
+.img5{
+    height: 100px;
+    width: 100px;
+}
+
+.img6{
+    height: 100px;
+    width: 120px;
+}
+
+.list-group-item{
+    margin-top: 50px;
+}
+
+.aboutus-box{
+    width: 1300px;
+}
+
+.text-style{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.box-big{
+    width: 800px;
+    margin-left: 260px;
+}
+
+.box-pos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

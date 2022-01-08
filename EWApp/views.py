@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import *
 from EWApp.models import SellerForm
+from django.http import JsonResponse
 
 # Create your views here.
 def store(request):
@@ -47,3 +48,9 @@ def seller(request):
         sellerform = SellerForm(name=name, email=email, number=number, address=address, comments=comments, city=city, state=state, pincode=pincode)
         sellerform.save()
     return render(request, 'EWApp/seller.html')
+
+def aboutus(request):
+    return render(request, 'EWApp/aboutus.html')
+
+def updateitem(request):
+    return JsonResponse('Item was added', safe=False)    

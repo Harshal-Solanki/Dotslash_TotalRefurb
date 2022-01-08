@@ -1,0 +1,47 @@
+{% extends 'EWApp/main.html' %}
+{% load static %}
+{% block store %}
+<!-- <div class="box-element box-pos"> -->
+    <h3 style="margin-top: 20px; text-align: center; font-weight: bolder; font-size: 50px;" class="box-big">What We do
+        at
+        TotalRefurb?
+        <hr style="border: 3px solid black">
+    </h3>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item box-element aboutus-box"><img class="img1" src="{% static 'images/inspect.jpg' %}"
+                alt="inspection"> <b class="text-style">Visual Inspection Of Waste Product</b> </li>
+
+        <li class="list-group-item box-element aboutus-box"><img class="img2" src="{% static 'images/repair.png' %}"
+                alt="repair"> <b class="text-style"> Repair Attempt and replacement of Parts</b> </li>
+
+        <li class="list-group-item box-element aboutus-box"><img class="img3" src="{% static 'images/cleaning.png' %}"
+                alt="cleaning"> <b class="text-style"> Deep Cleaning of Product</b> </li>
+
+        <li class="list-group-item box-element aboutus-box"><img class="img4" src="{% static 'images/testing.png' %}"
+                alt="testing"> <b class="text-style"> In-Depth Testing</b> </li>
+
+        <li class="list-group-item box-element aboutus-box"><img class="img5" src="{% static 'images/recycling.png' %}"
+                alt="recycling"> <b class="text-style"> If tests fail we recover electronic components from the PCBs of
+                the
+                product</b></li>
+
+        <li class="list-group-item box-element aboutus-box"><img class="img6" src="{% static 'images/selling.jpg' %}"
+                alt="recycling"> <b class="text-style"> If tests pass we sell it for cheap prices on our website</b>
+        </li>
+
+    </ul>
+<!-- </div> -->
+<div class="box-element box-pos">
+    <h3 style=" text-align: center; font-size: 50px; font-weight: bolder; margin-top: 30px;" class="box-big">Why
+        TotalRefurb?
+        <hr style="border: 3px solid black">
+    </h3>
+    <p style="font-weight: bold; font-size: 30px;">TotalRefurb is not only directed towards customers who want to
+        buy/sell old products, but also aims to reinforce the
+        idea of easy repairibility and reliable part outsourcing.
+        The concept of Right to Repair is gaining a lot of momentum across the world. We aim to do our part in
+        contributing
+        to it
+    </p>
+</div>
+{% endblock store %}
